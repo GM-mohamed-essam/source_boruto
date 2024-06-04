@@ -1,0 +1,91 @@
+{
+    "name": "『 𝐒𝐎𝐔𝐑𝐂𝐄 𝐁𝐎𝐑𝐔𝐓𝐎 』",
+    "description": "〔 سـورس 𝐒𝐎𝐔𝐑𝐂𝐄 𝐁𝐎𝐑𝐔𝐓𝐎 𖤍 \n افضـل سـورس لتشغيل الصوتيات في المكالمه  › تحديثـات متواصله › 〔 حصريـاً 〕\n - مطـور السـورس :  𝐁𝐎𝐑𝐔𝐓𝐎",
+    "logo": "https://telegra.ph/file/4f59e6c12121cc1518179.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "ze",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram",
+    "python",
+    "telethon"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "ضع هنا ايبي ايدي او اتركه كما هو.",
+        "value": "26988152",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "ضع هنا ايبي هاش او اتركه كما هو.",
+        "value": "c1b523fb696d6bd1f983b6747170373a",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "ضع هنا تكون البوت الذي صنعته من @BotFather.",
+        "value": "",
+        "required": true
+      },
+      "START_IMG_URL": {
+        "description": "رابط صوره start او اتركه كما هو.",
+        "value": "https://telegra.ph/file/4c9e651e49f126c9afff6.jpg",
+        "required": true
+      },
+      "CHANNEL_NAME": {
+        "description": "اسم قناتك.",
+        "value": "",
+        "required": true
+      },
+      "CHANNEL_LINK": {
+        "description": "يوزر قناتك بدون @.",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "ايدي المستخدم الذي ترغب في إضافته كـ مطور البوت",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "رابط قاعدة البيانات Mongo DB",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "ضع هنا كود بايروجرام الحساب المساعد",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": 
+       "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "اسم التطبيق أول مربع كتبته خلي هنا نفسه وحروف صغيرة.",
+        "value": "",
+        "required": false
+      },
+      "LOGGER_ID": {
+        "description": "حط  ايدي مجموعة السجل الخاص بك.او اتركه كما هو",
+        "value": "2002730778",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
